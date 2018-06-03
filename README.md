@@ -62,35 +62,35 @@ The different types of visualisations used to build the dashboard are:
 
 Navigate to the **Report** first tab on the left hand panel and add the different visualisations to the dashboard canvas:
 
-**slicer visualisation**
+**slicer visualisation**<br/>
 Drag the slicer visualisation onto the canvas to act as a filter. Next drag 'sport' from the field panel to the slicer Field in the visualisation panel. This creates a filter based on the different genre of sports. 
 ![jpg](images/Viz-slicer.jpg)
 
 Create another two sets of filter using the 'genre' and 'type' data column
 
-**cards visualisation**
+**cards visualisation**<br/>
 Drag the cards visualisation onto the canvas. Add 'Country' to the cards Field, next click on the added 'Country' data and select 'Count (Distinct)' to show the number of unique countries taking part in this sporting event. 
 ![jpg](images/Viz-slicer.jpg)
 
 Repeat the above steps and for displaying the number of different sports involved and competitve events
 
-**piechart visualisation**
+**piechart visualisation**<br/>
 Drag the piechart visualisation onto the canvas. Add 'gender' to the piechart Legend and 'event' to the piechart Values, click on the added 'event' data and select 'Count (Distinct)'
 ![jpg](images/Viz-piechart.jpg)
 
-**table visualisation**
+**table visualisation**<br/>
 Drag the table visualisation onto the canvas. Add 'Country' to the table Rows, 'medal' (from the medals dataset) to the Columns and 'medal count' to the Values
 ![jpg](images/Viz-table.jpg)
 
-**filled map visualisation**
+**filled map visualisation**<br/>
 Drag the filled map visualisation onto the canvas. Add 'Country' to the filled map Location, and 'medal count' to the Color saturation
 ![jpg](images/Viz-filledmap.jpg)
 
-**scatter chart visualisation**
+**scatter chart visualisation**<br/>
 Drag the scatter chart visualisation onto the canvas. Add 'Country' to the scatter chart Details, 'Cumulative Medals Count' to the X Axis, 'Cumulative Events Count' to the Y Axis, and 'Cumulative Medals Count' to the Size
 ![jpg](images/Viz-scatter.jpg)
 
-**Animation of the medal counts by country by day**
+**Animation of the medal counts by country by day**<br/>
 ![gif](images/Cumulate-Medals.gif)
 
 ### Final Dashboard ###

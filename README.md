@@ -24,6 +24,8 @@ On the preview window click on the "load" button to import the data into PowerBI
 Repeat the steps in **Part 1** and import the medalSort.csv data into PowerBI
 The medalSort.csv data contains the data to perform custom sorting in PowerBI. PowerBI could not understand the sort order of the medal type. For example Gold is > than Silver > than Bronze therefore we need to specify a custom sorting order.
 
+If the custom sorting is not specified, PowerBI will sort the medal in alphabetical hierarchical format -> Bronze, Gold, Silver, which is wrong.
+
 Navigate to the **Relationship Viewer** last tab on the left hand panel to see the relationship between the two loaded dataset
 
 ### Part 3: Creating New Measures ###
@@ -84,8 +86,8 @@ Drag the table visualisation onto the canvas. Add 'Country' to the table Rows, '
 Drag the filled map visualisation onto the canvas. Add 'Country' to the filled map Location, and 'medal count' to the Color saturation
 ![jpg](images/Viz-filledmap.jpg)
 
-**scatter plot visualisation**
-Drag the scatter visualisation onto the canvas. Add 'Country' to the scatter Details, 'Cumulative Medals Count' to the X Axis, 'Cumulative Events Count' to the Y Axis, and 'Cumulative Medals Count' to the Size
+**scatter chart visualisation**
+Drag the scatter chart visualisation onto the canvas. Add 'Country' to the scatter chart Details, 'Cumulative Medals Count' to the X Axis, 'Cumulative Events Count' to the Y Axis, and 'Cumulative Medals Count' to the Size
 ![jpg](images/Viz-scatter.jpg)
 
 **Animation of the medal counts by country by day**

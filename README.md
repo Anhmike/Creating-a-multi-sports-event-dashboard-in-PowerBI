@@ -90,3 +90,6 @@ Drag the scatter visualisation onto the canvas. Add 'Country' to the scatter Det
 
 **Animation of the medal counts by country by day**
 ![gif](images/Cumulate-Medals.gif)
+
+### Final Dashboard ###
+![gif](images/FinalDashboard.jpg)

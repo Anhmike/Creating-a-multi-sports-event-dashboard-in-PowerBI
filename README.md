@@ -6,7 +6,7 @@ This demo will provide an introduction in
 - creating custom sorting order in PowerBI
 - creating different visualisations to build a dashboard 
 
-The data used are pre-scraped from the 8th Asean ParaGames website using the free tier of [import.io](https://www.import.io/)  
+This dataset used is scraped from the 8th Asean ParaGames website using the free tier of [import.io](https://www.import.io/)  
 
 ### Part 1: Inserting Data - medals.csv ###
 
